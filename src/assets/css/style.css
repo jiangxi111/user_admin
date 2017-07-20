@@ -1,0 +1,58 @@
+/*
+公用 app組件css
+ */
+body { 
+  color: #000; 
+  font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial;
+  padding: 0px !important;
+  margin: 0px !important;
+  font-size:13px; 
+  background: #fff;
+}
+html,body{
+  height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+body, th, td, button, input, select, textarea,label {
+  font-size: 14px;
+  font-weight: normal;
+}
+*{
+  font-size: 14px;
+
+}
+/***
+General typography 
+***/
+h3 small, h4 small, h5 small {
+  color: #444;
+}
+
+
+a {
+  text-shadow: none !important;
+  text-decoration: none;
+}
+  
+ a:hover,a:focus{
+    text-decoration: none;
+  }
+.paginatestyle{
+ float: right;
+  margin: 20px auto;
+  text-align: center;
+}
+.table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border-bottom-width: 0px;
+    text-align: center;
+}
+ .el-row {
+    margin-bottom: 20px;
+}
+/*.el-col{
+  margin-bottom: 15px;
+}*/
+ .el-submenu .el-submenu  .el-submenu__title{
+   
+    }
